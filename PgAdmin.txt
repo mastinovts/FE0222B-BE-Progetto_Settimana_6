@@ -1,0 +1,11 @@
+create TABLE contocorrente(numero varchar(4) primary key unique not null,
+                        intestatario varchar(30) not null,
+                        saldo double not null);
+                                      
+                        
+Insert into ContoCorrente(numero,intestatario,saldo)
+    values('1001','Merola Mario',178295.23),
+    ('1002','D'Alessio Gigi',590.5),
+    ('1003','Giorgio' Francesco',903902.8),
+    ('1004','Rossi Valentino',954122.15),
+	('1005','Massa Felipe',730520.8);
